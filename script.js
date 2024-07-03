@@ -8,5 +8,7 @@ const  settingsMenuToggle =()=>{
 
 darkBtn.onclick = ()=>{
     darkBtn.classList.toggle('dark-btn-on')
+    document.body.classList.toggle('dark-theme')
+
 } 
 
