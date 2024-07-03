@@ -419,4 +419,22 @@ nav{
     color: #9a9a9a;
 }
 
+.load-more-btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #626662;
+    background: transparent;
+    border-radius: 4px;
+
+}
+
+footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
+
+}
 
