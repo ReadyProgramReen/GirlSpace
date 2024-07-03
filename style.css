@@ -448,8 +448,17 @@ footer{
     overflow: hidden;
     top:108%;
     right: 5%;
+    max-height: 0;
+    transform: max-height 0.3s;
 
 }
+
+/* For js function only */
+.settings-menu-height{
+    max-height: 450px;
+
+}
+    
 
 .user-profile a{
     font-size: 12px;
