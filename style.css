@@ -6,8 +6,8 @@
 }
 
 :root{
-    --body-color:#efefef;
-    --nav-color:#1876f2;
+    --body-color:#d78f8f;
+    --nav-color:#77263c;
     --bg-color:#fff;
 
 }
@@ -35,10 +35,7 @@ nav{
     z-index: 100;
 }
 
-.logo{
-    width: 160px;
-    margin-right: 45px;
-}
+
 .nav-left,.nav-right{
     display: flex;
     align-items: center;
@@ -49,10 +46,18 @@ nav{
     display: inline-block;
 
 }
-.nav-left ul li img{
+/* .nav-left ul li img{
     width: 28px;
     margin: 0 15px;
+} */
+
+nav h1{
+    color: #d07aa5;
+    font-size: 40px;
+    margin-right: 20px;
+    
 }
+
 .nav-user-icon {
     margin-left: 30px;
 
@@ -127,7 +132,7 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #626662;
+    color: #c51857;
     width:fit-content;
 
 }
@@ -136,7 +141,7 @@ nav{
     margin-right: 15px;
 }
 .imp-links a:last-child{
-    color: #1876f2;
+    color: #c51857;
 }
 
 .imp-links{
@@ -151,8 +156,8 @@ nav{
 
 .shortcut-links p{
     margin: 25px 0;
-    color: #626662;
-    font-weight: 500;
+    color: #c51857;
+    font-weight: 600;
 
 }
 
@@ -160,7 +165,7 @@ nav{
     background:var(--bg-color);
     padding: 20px;
     border-radius: 4px;
-    color: #626662;
+    color: #c51857;
 }
 .sidebar-title{
     display: flex;
@@ -176,7 +181,7 @@ nav{
 }
 .sidebar-title a{
     text-decoration: none;
-    color: #1876f2;
+    color: #77263c;
     font-size: 12px;
 }
 
@@ -207,7 +212,7 @@ nav{
 .event a{
     font-size: 12px;
     text-decoration: none;
-    color: #1876f2;
+    color: #77263c;
 }
 
 .left-event span{
@@ -215,7 +220,7 @@ nav{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #1876f2;
+    background: #77263c;
     color: var(--bg-color);
     font-size: 10px;
     padding: 10px 0;
@@ -275,7 +280,7 @@ nav{
     border-radius: 50%;
     top:10px;
     left: 10px;
-    border: 2px solid #1876f2;
+    border: 2px solid #77263c;
 }
 .story p{
     position: absolute;
@@ -288,23 +293,23 @@ nav{
 
 /* stories */
 .story1{
-    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/status-1.png);
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/reen1.jpg);
 
 }
 .story2{
-    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/status-2.png);
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/aaliyah2.png);
 
 }
 .story3{
-    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/status-3.png);
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/justine3.jpg);
 
 }
 .story4{
-    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/status-4.png);
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/ryan2.jpg);
 
 }
 .story5{
-    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/status-5.png);
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)) ,url(images/Kirah2.jpg);
 
 }
 
@@ -314,7 +319,7 @@ nav{
     background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
-    color: #626662;
+    color: #c51857;
 }
 
 .user-profile{
@@ -332,7 +337,7 @@ nav{
 .user-profile p{
     margin-bottom: -5px;
     font-weight: 600;
-    color: #626662;
+    color: #c51857;
 }
 
 .user-profile small{
@@ -360,7 +365,7 @@ nav{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #626662;
+    color: #c51857;
     margin-right: 30px;
     font-size: 13px;
 }
@@ -373,7 +378,7 @@ nav{
     background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
-    color: #626662;
+    color: #c51857;
     margin: 20px 0;
 }
 .user-profile span{
@@ -386,11 +391,11 @@ nav{
     font-size: 15px;
 }
 .post-text span{
-    color: #626662;
+    color: #c51857;
     font-weight: 500;
 }
 .post-text a{
-    color: #1876f2;
+    color: #77263c;
     text-decoration: none;
 }
 .post-img{
@@ -437,9 +442,10 @@ nav{
     margin: auto;
     cursor: pointer;
     padding: 5px 10px;
-    color: #626662;
-    background: transparent;
-    border-radius: 4px;
+    background: var(--nav-color);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
 
 }
 
@@ -475,7 +481,7 @@ footer{
 
 .user-profile a{
     font-size: 12px;
-    color: #1876f2;
+    color: #77263c;
     text-decoration: none;
 }
 .settings-menu-inner{
@@ -507,7 +513,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #626662;
+    color: #c51857;
 }
 
 /* Dark Mode */
@@ -539,3 +545,22 @@ footer{
 
 }
 
+/* Media Query */
+
+@media only screen and (max-width : 900px){
+    .right-sidebar{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width : 600px){
+    .nav-left h1{
+        font-size: 30px;
+    }
+
+    .search-box,.left-sidebar {
+        display: none;
+    }
+
+}
